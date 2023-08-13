@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Firebase 9</title>
+</head>
+<body class="max-w-2xl mx-auto">
+    <h1>Getting started with firebase 9</h1>
+    <form class="add ">
+        <label for="title">Title:</label>
+        <input type="text" name="title" id="" required class="border border-black">
+        <label for="author">Author:</label>
+        <input type="text" name="author" id="" required class="border border-black">
+
+        <button class="bg-green-400 p-2 rounded">add new book</button>
+    </form>
+    <div class="books">
+
+    </div>
+    <form class="delete">
+        <label for="id">document id:</label>
+        <input type="text" name="id" id="" required class="border border-black">
+
+        <button class="bg-red-400 p-2 rounded">delete a book</button>
+    </form>
+
+    <form class="update">
+        <label for="id">document id:</label>
+        <input type="text" name="id" id="" required class="border border-black">
+
+        <button class="bg-red-400 p-2 rounded">update a book</button>
+    </form>
+
+    <h2>Firebase Auth</h2>
+    <form class="signup">
+        <label for="email">email:</label>
+        <input type="email" name="email" id="">
+        <label for="password">password:</label>
+        <input type="password" name="password" id="">
+        <button>signup</button>
+    </form>
+    <script src="bundle.js"></script>
+</body>
+</html>
